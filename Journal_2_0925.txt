@@ -1,0 +1,45 @@
+What is the command for listing files in Linux?
+ls -rt
+What is the command for listing files in Linux in reverse time order?
+ls -lrt
+What is the command for listing files in Linux in reverse time order with access times and 
+permissions?
+ls -lt
+Why would you do this?
+To find access permissions and times.
+How can you search the contents of one file for a text string?
+
+What would be the regular expression search for social security numbers?
+grep -abif [0-9] {0, 8} /drive
+Email addresses?
+grep -abif [@[a-z]] /drive && grep -abif .com /drive
+How can you search the contents of a disk image for a text string?
+grep -abif searchterms.txt /drive
+
+Why would you do this instead of searching files?
+If the files are deleted or are not files or you have too many files
+
+What is the command to find files in Linux?
+find
+
+What is the command to find all XLS documents in a directory?
+grep -i XLS *
+
+What is the command to find all files and identify their characteristics?
+cd / BREAK ls -laiRtu OR grep -abif * /
+
+Why would you do this?
+I don’t really know....
+
+What is the command list disk characteristics?
+fdisk -ls
+
+What is the command to mount an image?
+mount -t vfat -o ro,noexec /dev/fd0 /mnt/analysis
+
+How can you fill a disk / disk image with 0s?
+cat /dev/zero | hexdump
+
+Why would you fill a disk image with zeros?
+I don’t really know...
+
