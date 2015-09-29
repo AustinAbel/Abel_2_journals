@@ -1,0 +1,1 @@
+I used "grep -oaif /home/aabel/Terms.txt directory.cfm | sort -u > Journal_2_0929EMail.txt" to search for all emails.
