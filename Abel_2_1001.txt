@@ -1,0 +1,11 @@
+What is a file system?
+A filesystem is the methods and data structures that an operating system uses to keep track of files on a disk or partition.
+
+What are inodes?
+Bit numbering for the space on the hard disk.
+
+What are disk partitions?
+Parts of a disk sectioned off for ,usally, a OS.
+
+what are journaling file systems?
+A journaling file system is a file system that keeps track of changes not yet committed to the file system's main part?

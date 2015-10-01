@@ -8,7 +8,7 @@ ls -lt
 Why would you do this?
 To find access permissions and times.
 How can you search the contents of one file for a text string?
-
+grep
 What would be the regular expression search for social security numbers?
 grep -abif [0-9] {0, 8} /drive
 Email addresses?
