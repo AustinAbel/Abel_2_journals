@@ -1,0 +1,24 @@
+What is a disk image?
+
+A disk image is a replicated file system.
+
+What is the command to make a disk image?
+
+N/A
+
+What is a disk partition?
+
+A disk partition is a section of the disk which is specifically desegnated.
+
+How many partitions are in a disk image?
+
+Any amount specified by the user.
+
+What difficulties does this pose if any?
+
+
+
+What steps must you take to work with this?
+
+
+
