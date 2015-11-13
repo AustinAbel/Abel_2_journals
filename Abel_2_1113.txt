@@ -1,0 +1,5 @@
+How did you combine multiple files in Linux?
+cat 1.txt 2.txt 3.txt > 0.txt
+
+How can you split multiple files in Linux?
+split [OPTION]... [INPUT [PREFIX]]
