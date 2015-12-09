@@ -1,0 +1,1 @@
+You can recover deleted text files by serching for file headers and key words.

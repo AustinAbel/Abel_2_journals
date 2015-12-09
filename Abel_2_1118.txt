@@ -1,0 +1,1 @@
+the file header for JPEG is ffd8

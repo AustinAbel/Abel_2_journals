@@ -1,0 +1,14 @@
+Why do we use disk images in digital forensics?
+Provide an example and describe a use case.
+
+We use disk images to protect and unalter the original evidence.
+
+****************************************
+What are the steps of creating a blank disk image and then adding files?
+fallocate to create
+mkfs.ext4 to make file system
+mount to, well, mount
+touch or pico to create files
+
+How does the OSI model relate to the use of disk images?
+The disk image is on OSI level 7
