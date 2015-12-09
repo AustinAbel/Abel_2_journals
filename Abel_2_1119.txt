@@ -1,0 +1,10 @@
+    First we search for the file header 'JFIF' We search for 'JFIF'  by using the command 'xxd | grep ffd8'. 
+    Then we 'echo"ibase=16;$$$$$"' to find the line.
+    Using the value from that - we use hex value and line number to convert bit adress to a decimal number.
+    For example, in the example from yesterday, we found the bit adress and converted it to decimal using the command echo"ibase=16;$$$$"
+    Then to find the end of the file, we searched ffd9 using the command grep.
+    ******************************************************
+    Using that information, we find the number of bits, using the command echo 
+    Then using dd we can reconstruct the file using the command dd
+
+
